@@ -9,7 +9,8 @@ public class Tile extends JPanel {
         int rgb = (int)perlinIndex*10;
         if (rgb > 255) rgb = 255;
         if (rgb < 0) rgb = 0;
-
+        
+        // reversing colors
         rgb = 255 - rgb;
 
         Color color = new Color(rgb,rgb,rgb);
