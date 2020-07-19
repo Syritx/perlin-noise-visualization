@@ -6,15 +6,12 @@ import java.awt.event.*;
 
 public class Window extends JFrame implements ActionListener {
     int TILE_SIZE = 5;
+
     /* MAIN VARIABLES FOR GENERATION */
-    // length of the area
-    int LENGTH = 150;
-
-    // Smoothness of the terrain
-    float INTENSITY = 3f;
-
-    // layers of the terrain
-    int LAYERS = 120;
+    int LENGTH = 150;       // length of the area
+    float INTENSITY = 3f;   // Smoothness of the terrain
+    int LAYERS = 120;       // layers of the terrain
+    /* END */
 
     Tile[] TILES;
     int TILE_INDEX;
